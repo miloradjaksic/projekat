@@ -12,7 +12,7 @@ export default function AdminNavbar(props: Props) {
   return (
     <Navbar>
       <Navbar.Brand >
-        LMN fashion
+        MMA fashion
       </Navbar.Brand>
       <Nav>
         <Nav.Item as={NavLink} to='/'>Order monitoring</Nav.Item>

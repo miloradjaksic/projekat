@@ -23,7 +23,7 @@ export default function UserNavbar(props: Props) {
   return (
     <Navbar>
       <Navbar.Brand >
-        LMN fashion
+        MMA fashion
       </Navbar.Brand>
 
       <Nav>

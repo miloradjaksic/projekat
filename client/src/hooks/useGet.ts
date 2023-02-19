@@ -1,6 +1,5 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { Specification } from "../types";
 import * as queryString from 'query-string'
 
 export default function useGet<T>(path: string, initial: T, qp?: Record<string, any>) {

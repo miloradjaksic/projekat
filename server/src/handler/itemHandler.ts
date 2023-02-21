@@ -2,7 +2,6 @@ import { Request, Response } from "express";
 import { AppDataSource } from "../data-source";
 import { Item } from "../entity/Item";
 import { ItemGroup } from "../entity/ItemGroup";
-import { Order } from "../entity/Order";
 import { OrderItem } from "../entity/OrderItem";
 
 export async function getItems(req: Request, res: Response) {
